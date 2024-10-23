@@ -50,8 +50,32 @@ let numero = "2"
 //  console.log("retorno")
 //}
 
-let idade = 24
+let idade = 15
 
 if(idade > 18){
     console.log("Você é maior de idade!")
+} else if (idade == 15){
+    console.log("Está na idade certa")
+} else{
+    console.log("Você é menor de idade!")
+}
+
+let temLuz = false
+let sim = "Acenda as luzes"
+let nao = "Aguarde a energia voltar"
+
+if(temLuz == true){
+    console.log(sim)
+} else{
+    console.log(nao)
+}
+
+let num = prompt("Digite um número:")
+
+console.log(num)
+
+if(num == 5){
+    alert("Você acertou!")
+} else{
+    alert("Você errou :(")
 }
